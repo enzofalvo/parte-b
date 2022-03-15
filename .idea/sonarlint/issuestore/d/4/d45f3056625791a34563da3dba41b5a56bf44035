@@ -1,0 +1,15 @@
+
+£
+java:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(í€ðíûÿÿÿÿ8ûŸêýø/
+G
+java:S1602",Remove useless curly braces around statement(¬¥×¢ùÿÿÿÿ
+>
+java:S1116%"Remove this empty statement.(í€ðíûÿÿÿÿ8‚ êýø/
+\
+java:S11261"AReplace this if-then-else statement by a single return statement.(Ä¯·‡ÿÿÿÿÿ
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(‘žó¿
+R
+java:S4973)"<Strings and Boxed types should be compared using "equals()".(ÒÕáê
+^
+java:S49731"<Strings and Boxed types should be compared using "equals()".(Ä¯·‡ÿÿÿÿÿ8¤ÿýø/
