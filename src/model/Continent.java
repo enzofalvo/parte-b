@@ -71,7 +71,10 @@ public class Continent {
     public Country getHighestCountryPopulation(){
         Country countryHighestPopulation = new Country();
 
-        for(Country country : this.countries){
+        for(int i = 0; i < this.countries.size(); i++){
+            Country country = this.countries.get(i);
+
+            if(i == 0) countryHighestPopulation = country;
             if(country.getPopulation() > countryHighestPopulation.getPopulation()){
                 countryHighestPopulation = country;
 
@@ -103,7 +106,10 @@ public class Continent {
     public Country getHighestCountryDimension(){
         Country getHighestCountryDimension = new Country();
 
-        for(Country country : this.countries){
+        for(int i = 0; i < this.countries.size(); i++){
+            Country country = this.countries.get(i);
+
+            if(i == 0) getHighestCountryDimension = country;
             if(country.getDimension() > getHighestCountryDimension.getDimension()){
                 getHighestCountryDimension = country;
 
