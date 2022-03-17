@@ -2,6 +2,15 @@ package Main;
 
 import model.*;
 
+/*
+Alunos:
+Henrycke Bozza Schenberk
+Mikael da Silva
+Thomas Rempel
+Leonardo Augusto de Jesus Luize
+Enzo Falvo
+ */
+
 public class App {
     public static void main(String[] args) {
         // 4a. Zerar o contador
