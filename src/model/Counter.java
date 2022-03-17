@@ -1,18 +1,18 @@
 package model;
 
 public class Counter {
-    private int itemCount;
+    private static int itemCount;
 
     public Counter(int itemCount) {
-        this.itemCount = itemCount;
+        itemCount = itemCount;
         zeroCounter();
     }
 
-    private void zeroCounter() {
+    public void zeroCounter() {
         setItemCount(0);
     }
 
-    private void counterIncrement() {
+    public void counterIncrement() {
         setItemCount(returnCounterValue() + 1);
     }
 
